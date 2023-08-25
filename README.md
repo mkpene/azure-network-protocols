@@ -47,6 +47,6 @@ On another virtual machine, the client machine, I logged in using one of the use
 ![image](https://github.com/mkpene/azure-network-protocols/assets/142267681/750edf5a-7878-4c3e-866e-5cdc5985c5b6)
 
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+I restricted certain actions for specific users within the security group to simulate different access levels. I tested the permissions from different angles, like reading, creating, modifying, and deleting files within the shared folder. This allowed me to gauge the effectiveness of the permissions setup. To test the setup more extensively, I created a few more virtual machines and assigned their users to the "ACCOUNTANTS" security group. This allowed me to see how group-based permissions scaled across multiple users.
 </p>
 <br />
