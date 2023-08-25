@@ -39,7 +39,7 @@ I created a security group called "ACCOUNTANTS." I accessed the Active Directory
 ![image](https://github.com/mkpene/azure-network-protocols/assets/142267681/bc825f68-ba3b-4b96-b290-442d324cd161)
 
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+On another virtual machine, the client machine, I logged in using one of the user accounts that belonged to the "ACCOUNTANTS" security group. To ensure that permissions were working as intended, I also logged in with a user who was not part of the "ACCOUNTANTS" security group and attempted to access the shared folder. I observed how access was granted or denied based on the user's group membership.
 </p>
 <br />
 
